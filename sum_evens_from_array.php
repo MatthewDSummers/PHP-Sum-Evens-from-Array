@@ -1,5 +1,5 @@
 <?php
-function sumEvensFromArray($int_array){
+function sum_evens_from_array($int_array){
     $sum = 0;
     if ( is_array($int_array) ){
         foreach ( $int_array as $index => $int ){
@@ -20,5 +20,5 @@ function sumEvensFromArray($int_array){
     }
 }
 
-echo sumEvensFromArray([1,2,3,4]);
+echo sum_evens_from_array([1,2,3,4]);
 ?>
